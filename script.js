@@ -1,6 +1,6 @@
-var music = ['cob.mp3'];
-var musicname = ['Carol of the Bells Epic - Pic by Dominik Honzak'];
-var musicpic = ['v1.jpg'];
+var music = ['cob.mp3','rise.mp3'];
+var musicname = ['Carol of the Bells Epic - Pic by Dominik Honzak','RISING SOUL - Tempei Nakamura - Pic by Dominik Honzak'];
+var musicpic = ['v1.jpg','g1.jpg'];
 var pre = [];
 var m1 = false;
 
