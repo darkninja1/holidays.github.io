@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title id='tt' >Dom's Holiday Music</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id='login' onclick='start()'>
+<h1>▶</h1>
+</div>
+<div id='pause' onclick='play()'>
+<h1>▶</h1>
+</div>
+<span id='pp' onclick='pause()'>Pause</span>
+<div id='img2' onclick='start()'></div>
+<span id='mname'></span>
+<span id='loop' onclick='loop()'>1</span>
+<span id='time1'></span>
+<span id='time2'></span>
+
+<img id='img' src="" onclick='start()'/>
+<div class='barh'>
+  <div id='bar'></div>
+</div>
+<label for='slide' id='vol'>🔊</label>
+<input type="range" min="0" max="100" value="100" id="slide" onchange='vol()'>
+
+<audio class='audio' id='music' style="display:none;" ontimeupdate="up();">
+        <source id='musicid' src='' type='audio/mpeg'>
+</audio>
+
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
