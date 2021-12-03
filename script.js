@@ -1,5 +1,5 @@
 var music = ['cob.mp3','rise.mp3'];
-var musicname = ['Carol of the Bells Epic - Pic by Dominik Honzak','RISING SOUL - Tempei Nakamura - Pic by Dominik Honzak gopro'];
+var musicname = ['Carol of the Bells Epic - Pic by Dominik Honzak Vermount','RISING SOUL - Tempei Nakamura - Pic by Dominik Honzak Vermount'];
 var musicpic = ['v1.jpg','v1.jpg'];
 var pre = [];
 var m1 = false;
